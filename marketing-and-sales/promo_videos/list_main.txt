@@ -1,0 +1,3 @@
+file '/Users/roei/dev_workspace/Small Projects/forkMonkey/marketing-and-sales/promo_videos/dashboard.mp4'
+file '/Users/roei/dev_workspace/Small Projects/forkMonkey/marketing-and-sales/promo_videos/evolution.mp4'
+file '/Users/roei/dev_workspace/Small Projects/forkMonkey/marketing-and-sales/promo_videos/tree.mp4'
