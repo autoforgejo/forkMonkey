@@ -54,3 +54,4 @@ tmp/
 
 # Generated files (except monkey display)
 !monkey_data/
+creds

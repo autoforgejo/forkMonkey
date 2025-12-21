@@ -152,17 +152,29 @@ def oauth_complete():
         if not installation_id:
             return jsonify({'success': False, 'error': 'Installation ID required'}), 400
         
-        # TODO: Implement GitHub App installation token generation
-        # and use it to fork/setup directly in user's account
+        # Initialize GitHub service
+        # Token is not needed here as we use app credentials from env
+        try:
+            github_service = GitHubService(token="dummy") # Token required by init check but unused for app flow
+        except ValueError:
+            # Bypass token check if possible or mock it, 
+            # actually GitHubService requires token in init.
+            # We can pass a dummy token since we won't use self.github for this flow
+            # or better, refactor GitHubService to make token optional.
+            # For now, passing a dummy if GITHUB_TOKEN env var is missing (which it shouldn't be).
+            github_service = GitHubService(token="app-flow-placeholder")
         
-        return jsonify({
-            'success': False,
-            'error': 'OAuth completion not yet implemented. Please use Trustless method.'
-        }), 501
+        # Perform full OAuth setup
+        result = github_service.full_setup_for_oauth(installation_id, customization)
+        
+        if result.get('success'):
+            return jsonify(result), 200
+        else:
+            return jsonify(result), 400
         
     except Exception as e:
         app.logger.error(f"OAuth completion error: {e}")
-        return jsonify({'success': False, 'error': 'Internal server error'}), 500
+        return jsonify({'success': False, 'error': str(e)}), 500
 
 
 @app.route('/api/validate/username', methods=['GET'])

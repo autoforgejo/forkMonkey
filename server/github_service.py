@@ -267,3 +267,112 @@ class GitHubService:
             'pages_url': pages_result.get('pages_url'),
             'message': f'Repository created and transfer request sent to {target_username}'
         }
+    
+    def get_installation_client(self, app_id: str, private_key: str, installation_id: int) -> Github:
+        """
+        Get a Github client authenticated as an App installation.
+        
+        Args:
+            app_id: GitHub App ID.
+            private_key: GitHub App private key.
+            installation_id: Installation ID from the callback.
+            
+        Returns:
+            Authenticated Github client.
+        """
+        from github import GithubIntegration
+        
+        integration = GithubIntegration(app_id, private_key)
+        access_token = integration.get_access_token(installation_id).token
+        return Github(access_token)
+
+    def full_setup_for_oauth(self, installation_id: str, customization: Optional[Dict] = None) -> Dict[str, Any]:
+        """
+        Complete full-trust adoption flow via GitHub App.
+        
+        1. Authenticate as the installation
+        2. Fork repo directly to user's account
+        3. Enable Actions & Pages
+        4. Trigger initialization
+        
+        Args:
+            installation_id: GitHub App installation ID.
+            customization: Optional trait customization.
+            
+        Returns:
+            Dictionary with operation results.
+        """
+        app_id = os.getenv('GITHUB_APP_ID')
+        private_key = os.getenv('GITHUB_PRIVATE_KEY')
+        
+        if not app_id or not private_key:
+            return {'success': False, 'error': 'GitHub App credentials not configured on server'}
+            
+        try:
+            # 1. Authenticate as the installation (acting as the user)
+            gh_client = self.get_installation_client(app_id, private_key, int(installation_id))
+            user = gh_client.get_user()
+            username = user.login
+            
+            # 2. Fork repository directly to user's account
+            # We use the installation client, so create_fork forks to the installation target (the user)
+            source_repo = gh_client.get_repo(self.source_repo)
+            fork = source_repo.create_fork()
+            
+            # Wait for fork to be ready
+            time.sleep(5)
+            
+            repo_full_name = fork.full_name
+            
+            # 3. Enable Actions (using the installation client)
+            # Installations usually have write access, so we can set permissions
+            try:
+                fork._requester.requestJsonAndCheck(
+                    "PUT",
+                    f"/repos/{repo_full_name}/actions/permissions",
+                    input={"enabled": True, "allowed_actions": "all"}
+                )
+            except Exception as e:
+                # Might fail if already enabled or permission issues, log but continue
+                print(f"Warning enabling actions: {e}")
+                
+            # 4. Enable Pages
+            try:
+                fork._requester.requestJsonAndCheck(
+                    "POST",
+                    f"/repos/{repo_full_name}/pages",
+                    input={"build_type": "workflow"}
+                )
+            except Exception as e:
+                if "already exists" not in str(e).lower():
+                    print(f"Warning enabling pages: {e}")
+            
+            # Wait before triggering workflow
+            time.sleep(3)
+            
+            # 5. Trigger initialization workflow
+            try:
+                workflow = fork.get_workflow('on-create.yml')
+                
+                # Pass customization as inputs if supported by workflow
+                inputs = {}
+                if customization:
+                    # Map customization keys to workflow inputs if defined
+                    # For now, we assume the workflow might pull from a file or defaults
+                    pass
+                    
+                workflow.create_dispatch(ref='main', inputs=inputs)
+            except Exception as e:
+                return {'success': False, 'error': f"Failed to trigger workflow: {e}"}
+            
+            return {
+                'success': True,
+                'repo_name': fork.name,
+                'repo_url': fork.html_url,
+                'github_username': username,
+                'pages_url': f"https://{username}.github.io/{fork.name}/",
+                'message': 'Monkey successfully adopted!'
+            }
+            
+        except Exception as e:
+            return {'success': False, 'error': str(e)}

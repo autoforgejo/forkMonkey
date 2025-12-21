@@ -33,7 +33,8 @@ const ForkMonkey = {
         repoOwner: 'roeiba',
         repoName: 'forkMonkey',
         refreshInterval: 60000, // 60 seconds
-        apiBaseUrl: '/api'      // Backend API base URL (to be configured)
+        // apiBaseUrl: '/api',      // Production URL
+        apiBaseUrl: 'http://localhost:8080/api' // For local development
     },
 
     /**
