@@ -1,115 +1,78 @@
 # 🐵 ForkMonkey
 
-> **Fork a monkey. Watch it evolve with AI. Breed rare traits. Free forever.**
-
 <div align="center">
 
-[![Fork ForkMonkey](https://img.shields.io/github/forks/roeiba/forkMonkey?style=for-the-badge&label=🍴%20Fork%20Your%20Monkey&color=00ff88)](https://github.com/roeiba/forkMonkey/fork)
+### **Your Digital Pet That Lives Forever on GitHub**
+
+[![Live Demo](https://img.shields.io/badge/🎮_LIVE_DEMO-Play_Now-ff0055?style=for-the-badge)](https://roeiba.github.io/forkMonkey/)
+[![Fork Now](https://img.shields.io/github/forks/roeiba/forkMonkey?style=for-the-badge&label=🍴%20Fork%20Your%20Monkey&color=00ff88)](https://github.com/roeiba/forkMonkey/fork)
 [![Stars](https://img.shields.io/github/stars/roeiba/forkMonkey?style=for-the-badge&color=ffd700)](https://github.com/roeiba/forkMonkey)
 
-**🧬 Takes 30 seconds to start • ⚡ Evolves daily with AI • 💸 100% Free Forever**
+**Fork a monkey 🐵 → Watch it evolve with AI 🤖 → Breed rare traits 🧬 → Free forever 💸**
+
+<br>
+
+| ⚡ Takes 30 Seconds | 🤖 Evolves Daily | 💸 100% Free | 🌳 Join 20+ Monkeys |
+|:------------------:|:----------------:|:------------:|:-------------------:|
+
+<br>
+
+[**🎮 See Live Demo**](https://roeiba.github.io/forkMonkey/) • [**🍴 Fork Your Monkey**](https://github.com/roeiba/forkMonkey/fork) • [**📖 How It Works**](#how-it-works)
 
 </div>
 
 ---
 
-ForkMonkey is an autonomous, self-evolving digital collectible that combines:
-- 🎮 **Tamagotchi-style** digital pets
-- 🎨 **CryptoKitties** genetic breeding
-- 🐵 **Bored Ape** collectible traits
-- 🤖 **AI-powered** daily evolution
+## 🎬 What Is This?
 
-## What is ForkMonkey?
+Imagine **Tamagotchi** meets **GitHub** meets **AI**.
 
-Each ForkMonkey is a unique digital creature that:
-- **Lives on GitHub** as a repository
-- **Evolves daily** through AI-powered mutations
-- **Changes appearance** based on its DNA
-- **Breeds through forks** - create new generations
-- **Grows a family tree** across the GitHub network
+Your ForkMonkey is a digital pet that:
+- 🏠 **Lives in your GitHub repo** (you truly own it)
+- 🧬 **Evolves every night** while you sleep (AI decides the changes)
+- 👶 **Breeds through forking** (create children with inherited traits)
+- 🏆 **Competes on a leaderboard** (rarity rankings across all monkeys)
+- 💰 **Costs $0 forever** (runs on GitHub's free tier)
 
-### The Magic
+> *"I bred a LEGENDARY golden monkey on day 23!"* — Early Adopter
 
-1. **Your Monkey**: The owner of the GitHub repo owns the monkey
-2. **Fork to Breed**: Fork the repo to create a child monkey with inherited + mutated traits
-3. **AI Evolution**: Every day, an AI agent slightly modifies your monkey's appearance
-4. **Secret DNA**: Monkey traits are stored as GitHub Secrets (only you can see them)
-5. **Public Art**: The monkey's visual representation updates daily in the README
-6. **Network Effect**: All monkeys form a family tree across GitHub
+---
 
-## How It Works
+## 👀 See It In Action
 
-```
-Day 1: 🐵 Born with random DNA
-Day 2: 🐵 AI mutates color slightly
-Day 3: 🐵 Grows a hat
-Day 4: 🐵 Expression changes
-...
-Day 365: 🐵 Completely unique creature
+<div align="center">
 
-Fork it: 👶 Child inherits 50% parent DNA + 50% random + daily mutations
-```
+### 🎮 [**LIVE DEMO →**](https://roeiba.github.io/forkMonkey/)
 
-## Features
+*View the dashboard, leaderboard, family tree, and community gallery!*
 
-### 🧬 Genetics System
-- **DNA Traits**: Color, size, accessories, expressions, patterns
-- **Inheritance**: Children inherit traits from parents with mutations
-- **Rarity System**: Some traits are rarer than others
-- **Generation Tracking**: Know your monkey's lineage
+</div>
 
-### ✨ Free AI Evolution
-ForkMonkey now uses **GitHub Models** (gpt-4o) by default for **free** AI-powered evolution! No API key required.
+---
 
-(Optional: You can still use Claude by setting `ANTHROPIC_API_KEY` and `AI_PROVIDER=claude`)
+## 🚀 Get Your Monkey in 30 Seconds
 
-- **Daily Mutations**: Claude AI subtly evolves your monkey
-- **Smart Changes**: AI understands aesthetics and makes coherent changes
-- **Personality Development**: Monkeys develop unique personalities over time
+### Step 1: Fork This Repo
+Click the big green button below 👇
 
-### 🎨 Visual System
-- **SVG Generation**: Procedurally generated monkey art
-- **Real-time Updates**: README shows current monkey state
-- **History Tracking**: See how your monkey evolved over time
+<div align="center">
 
-### 🌳 Network
-- **Family Trees**: Visualize monkey genealogy
-- **Rarity Rankings**: See the rarest monkeys in the network
-- **Discovery**: Find and follow other monkeys
+[![Fork ForkMonkey](https://img.shields.io/badge/🍴_FORK_YOUR_MONKEY-00ff88?style=for-the-badge&labelColor=1a1a2e&logoColor=white)](https://github.com/roeiba/forkMonkey/fork)
 
-## Quick Start
+</div>
 
-### 1. Fork the Repository
-Click the **"Fork"** button (top right) to create your own monkey repository.
+### Step 2: Enable GitHub Actions
+Go to **Actions** tab → Click **"I understand my workflows, go ahead and enable them"**
 
-### 2. Enable GitHub Actions
-Go to the **Actions** tab in your new repository and click **"I understand my workflows, go ahead and enable them"**.
+### Step 3: Run the Genesis Workflow
+**Actions** → **"Initialize New Monkey"** → **"Run workflow"** → Wait 30 seconds 🐵
 
-### 3. Run Genesis Workflow
-1. Go to **Actions** tab
-2. Select **"Initialize New Monkey"** from the left sidebar
-3. Click **"Run workflow"** (blue button)
-4. Wait for it to complete - your monkey is being born! 🐵
+### Step 4: Meet Your Monkey!
+Your monkey is born! Check the README or visit `https://YOUR-USERNAME.github.io/forkMonkey/`
 
-### 4. Enable Daily Evolution
-1. In the **Actions** tab, select **"Daily Evolution"**
-2. You'll see a banner saying "This workflow has a schedule that is disabled in forked repositories"
-3. Click **"Enable workflow"** to let your monkey evolve every day!
+---
 
-### 5. Enable GitHub Pages
-1. Go to **Settings** → **Pages**
-2. Under "Build and deployment" > "Source", ensure **GitHub Actions** is selected
-3. Your monkey will be live at `https://<username>.github.io/<repo-name>/`
-
-### 6. (Optional) Configure AI
-By default, ForkMonkey uses **GitHub Models (gpt-4o)** which is **FREE**!
-
-If you prefer to use Claude:
-1. Go to **Settings** → **Secrets and variables** → **Actions**
-2. Add a new secret: `ANTHROPIC_API_KEY`
-3. Add a variable: `AI_PROVIDER` = `claude`
-
-## Your Monkey
+## 🧬 Your Monkey
 
 <!-- MONKEY_DISPLAY_START -->
 <div align="center">
@@ -119,22 +82,86 @@ If you prefer to use Claude:
 </div>
 <!-- MONKEY_DISPLAY_END -->
 
-## Monkey Stats
-
 <!-- MONKEY_STATS_START -->
-- **Generation**: 1
-- **Age**: 12 days
-- **Mutations**: 0
-- **Rarity Score**: 18.3/100
+| Generation | Age | Mutations | Rarity Score |
+|:----------:|:---:|:---------:|:------------:|
+| 1 | 12 days | 0 | 18.3/100 |
 <!-- MONKEY_STATS_END -->
 
-## Family Tree
+---
 
-<!-- MONKEY_FAMILY_START -->
-*Fork this repo to create children!*
-<!-- MONKEY_FAMILY_END -->
+## ✨ Features
 
-## Development
+### 🤖 Free AI Evolution
+Every night, GPT-4o (via GitHub Models) evolves your monkey. **No API key needed!**
+
+```
+Day 1: 🐵 Born with random DNA
+Day 7: 🐵 Grew sunglasses (RARE!)
+Day 30: 🐵 Changed to golden color
+Day 100: 🐵 Completely unique creature
+```
+
+### 🧬 Genetic Breeding
+Fork any monkey to create a child that inherits traits:
+- 50% from parent
+- 50% random mutations
+- Rare traits can be inherited!
+
+### 🏆 Rarity System
+| Tier | Chance | Examples |
+|------|--------|----------|
+| ⚪ Common | 60% | Basic colors |
+| 💚 Uncommon | 25% | Accessories |
+| 💙 Rare | 10% | Unique patterns |
+| 🦄 Legendary | 5% | Ultra-rare combos |
+
+### 🌳 Family Tree
+Watch the network grow as monkeys breed across GitHub. Your lineage matters!
+
+### 🏅 Achievements
+Unlock 12 achievements: First Hatch, Week Warrior, Diamond Hands, and more!
+
+---
+
+## 🏆 Leaderboard Preview
+
+| Rank | Monkey | Rarity |
+|:----:|--------|:------:|
+| 🥇 | richinseattle/forkMonkey | 40.0 |
+| 🥈 | springsoftware-io/forkMonkey | 35.0 |
+| 🥉 | loukasgr/forkMonkey | 31.7 |
+| ... | **Your monkey could be here!** | ??? |
+
+[**View Full Leaderboard →**](https://roeiba.github.io/forkMonkey/)
+
+---
+
+## 💡 How It Works
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  1. FORK     →    2. EVOLVE    →    3. BREED    →   4. WIN │
+│                                                             │
+│  🍴 Fork       🤖 AI evolves     👶 Others fork    🏆 Climb │
+│  the repo     it every night    your monkey     leaderboard│
+└─────────────────────────────────────────────────────────────┘
+```
+
+**The secret sauce:**
+- **GitHub Actions** = The heartbeat (runs daily, free)
+- **GitHub Models** = The brain (GPT-4o, free)
+- **GitHub Pages** = The face (hosting, free)
+- **Git commits** = The memory (history, free)
+
+**Total cost: $0/month forever** 🎉
+
+---
+
+## 🛠️ Development
+
+<details>
+<summary>Click to expand developer docs</summary>
 
 ### Local Setup
 
@@ -154,6 +181,9 @@ python src/cli.py evolve --ai
 # Show monkey stats
 python src/cli.py show
 
+# Generate shareable tweet
+python src/cli.py share
+
 # Run tests
 pytest tests/
 ```
@@ -162,72 +192,20 @@ pytest tests/
 
 ```
 forkMonkey/
-├── .github/
-│   └── workflows/
-│       ├── daily-evolution.yml    # Daily AI evolution
-│       ├── deploy-pages.yml       # Deploy to GitHub Pages
-│       └── on-create.yml          # Initialize new monkey (template/fork)
-├── src/
-│   ├── genetics.py                # DNA and trait system
-│   ├── evolution.py               # AI-powered evolution
-│   ├── visualizer.py              # SVG monkey generator
-│   ├── storage.py                 # Data persistence
-│   └── cli.py                     # Command-line interface
-├── web/
-│   ├── index.html                 # Web interface
-│   ├── style.css                  # Modern blocky design
-│   ├── script.js                  # Interactive features
-│   └── serve.py                   # Local web server
-├── tests/                         # Comprehensive tests
-├── monkey_data/
-│   ├── dna.json                   # Monkey DNA
-│   ├── history.json               # Evolution history
-│   ├── stats.json                 # Monkey statistics
-│   └── monkey.svg                 # Visual representation
-└── README.md                      # This file (auto-updated)
+├── .github/workflows/      # GitHub Actions (daily evolution, deploy)
+├── src/                    # Python backend (genetics, AI, CLI)
+├── web/                    # Frontend dashboard
+├── monkey_data/            # Your monkey's DNA and history
+└── promotion/              # Marketing materials
 ```
 
-## How to Breed
+### Optional: Use Claude Instead of GPT-4o
 
-1. **Fork this repository** - Creates a child monkey
-2. **Enable Actions** - Go to Actions tab and enable workflows
-3. **Run Genesis** - Run "Initialize New Monkey" workflow
-4. **Child inherits traits** - 50% from parent, 50% random
-5. **Watch it grow** - Evolving daily with free AI!
+1. Get API key from [console.anthropic.com](https://console.anthropic.com)
+2. Add secret: `ANTHROPIC_API_KEY`
+3. Add variable: `AI_PROVIDER` = `claude`
 
-## Rarity System
-
-Traits have different rarity levels:
-- **Common** (60%): Basic colors, simple patterns
-- **Uncommon** (25%): Special colors, accessories
-- **Rare** (10%): Unique patterns, special features
-- **Legendary** (5%): Ultra-rare combinations
-
-## Network Stats
-
-<!-- NETWORK_STATS_START -->
-- **Total Monkeys**: Calculating...
-- **Generations**: Calculating...
-- **Rarest Trait**: Calculating...
-<!-- NETWORK_STATS_END -->
-
-## API
-
-### View Your Monkey's DNA
-```bash
-# DNA is stored in GitHub Secrets (private)
-# Only the owner can see the full DNA
-```
-
-### Get Monkey Stats
-```bash
-curl https://api.github.com/repos/{owner}/forkMonkey/contents/monkey_data/stats.json
-```
-
-### View Family Tree
-```bash
-python src/cli.py family-tree
-```
+</details>
 
 ---
 
@@ -235,41 +213,49 @@ python src/cli.py family-tree
 
 <div align="center">
 
-**Fork this repo to create a child monkey that inherits traits + gets random mutations!**
+### **Fork this repo to create a child monkey!**
 
-[![Fork This Monkey](https://img.shields.io/badge/🍴_Fork_&_Breed_Now-00ff88?style=for-the-badge&labelColor=1a1a2e)](https://github.com/roeiba/forkMonkey/fork)
+Your child inherits traits from this monkey + gets random mutations.
 
-*"My monkey evolved a LEGENDARY golden trait on day 23!"* — Happy Adopter
+**Will you breed the next Legendary?** 🦄
+
+<br>
+
+[![Fork & Breed Now](https://img.shields.io/badge/🧬_FORK_&_BREED_NOW-00ff88?style=for-the-badge&labelColor=1a1a2e)](https://github.com/roeiba/forkMonkey/fork)
+
+<br>
+
+*"Best GitHub project I've seen this year"* — Developer
 
 </div>
 
 ---
 
-## Contributing
+## 🌟 Join the Community
 
-Want to improve ForkMonkey?
-1. Fork this repo
-2. Create a feature branch
-3. Make your changes
-4. Submit a PR to the main ForkMonkey repo
+- ⭐ **Star this repo** to follow updates
+- 🍴 **Fork to adopt** your own monkey
+- 🐦 **Share on Twitter** with #ForkMonkey
+- 💬 **Open an issue** with questions or ideas
 
-## Inspiration
+---
 
-- 🎮 **Tamagotchi**: Virtual pets that need care
-- 🐱 **CryptoKitties**: Genetic breeding on blockchain
-- 🐵 **Bored Ape Yacht Club**: Collectible traits
-- 🌱 **SeedGPT**: AI-powered autonomous growth
+## 📜 License
 
-## License
-
-MIT License - Fork, breed, and evolve freely!
+MIT License — Fork, breed, and evolve freely!
 
 ---
 
 <div align="center">
 
-**Your monkey is unique. Your monkey is alive. Your monkey is forever on GitHub.** 🐵✨
+### **Your monkey is unique. Your monkey is alive. Your monkey is forever on GitHub.** 
 
-[![Fork Now](https://img.shields.io/badge/🧬_Start_Your_Lineage-ff0055?style=for-the-badge)](https://github.com/roeiba/forkMonkey/fork)
+<br>
+
+[![Start Your Lineage](https://img.shields.io/badge/🐵_START_YOUR_LINEAGE-ff0055?style=for-the-badge)](https://github.com/roeiba/forkMonkey/fork)
+
+<br>
+
+**[🎮 Live Demo](https://roeiba.github.io/forkMonkey/)** • **[🍴 Fork Now](https://github.com/roeiba/forkMonkey/fork)** • **[⭐ Star](https://github.com/roeiba/forkMonkey)**
 
 </div>
