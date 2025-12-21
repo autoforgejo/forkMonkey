@@ -423,7 +423,7 @@ const ForkMonkey = {
                 
                 <!-- Monkey Image Container -->
                 <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 24px; background: radial-gradient(circle, rgba(0, 255, 136, 0.05) 0%, transparent 70%); border-radius: 16px; padding: 20px;">
-                    <div style="width: 180px; height: 180px; display: flex; align-items: center; justify-content: center;">
+                    <div class="evolution-modal-image-container">
                         ${svgDisplay}
                     </div>
                 </div>
