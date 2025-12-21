@@ -8,11 +8,12 @@ on:
     paths:
       - 'web/**'
       - 'monkey_data/**'
+      - 'monkey_evolution/**'
       - '.github/workflows/deploy-pages.yml'
   
-  # Also trigger after daily evolution completes
+  # Also trigger after these workflows complete
   workflow_run:
-    workflows: ["Daily Evolution", "Initialize New Monkey"]
+    workflows: ["Daily Evolution", "Initialize New Monkey", "Community Scan"]
     types:
       - completed
     branches:
@@ -40,22 +41,29 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # Get latest changes (important after workflow_run trigger)
           ref: ${{ github.ref }}
           fetch-depth: 0
       
-      # Re-fetch to get the latest commit after evolution workflows
+      # Re-fetch to get the latest commit after workflow_run trigger
       - name: Get latest changes
         run: |
           git fetch origin main
           git checkout main
           git pull origin main
       
-      - name: Copy monkey data to web
+      - name: Copy data files to web folder
         run: |
           # Copy monkey_data to web folder so it's accessible
           cp -r monkey_data web/monkey_data
+          
+          # Copy monkey_evolution for timeline (if exists)
+          if [ -d "monkey_evolution" ]; then
+            cp -r monkey_evolution web/monkey_evolution
+            echo "📁 Copied monkey_evolution to web folder"
+          fi
+          
           echo "📁 Copied monkey_data to web folder"
+          echo "📋 Web folder contents:"
           ls -la web/
 
       - name: Setup Pages

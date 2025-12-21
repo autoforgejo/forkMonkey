@@ -1,42 +1,18 @@
 {
     "last_updated": "2025-12-21T12:00:00.000000",
-    "source_repo": "forkZoo/forkMonkey",
+    "source_repo": "roeiba/forkMonkey",
     "forks": [
         {
-            "owner": "forkZoo",
+            "owner": "roeiba",
             "repo": "forkMonkey",
-            "url": "https://github.com/forkZoo/forkMonkey",
+            "url": "https://github.com/roeiba/forkMonkey",
             "is_root": true,
             "monkey_stats": {
                 "generation": 1,
-                "rarity_score": 99.9,
-                "age_days": 100
+                "rarity_score": 11.7,
+                "age_days": 41
             },
             "monkey_svg": null
-        },
-        {
-            "owner": "cyber-monk",
-            "repo": "neon-ape",
-            "url": "#",
-            "is_root": false,
-            "monkey_stats": {
-                "generation": 5,
-                "rarity_score": 85.0,
-                "age_days": 42
-            },
-            "monkey_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400' style='width:100%;height:100%'><circle cx='200' cy='200' r='180' fill='#2d2d2d'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='50' fill='#00ff88'>🤖</text></svg>"
-        },
-        {
-            "owner": "pixel-pirate",
-            "repo": "arr-monkey",
-            "url": "#",
-            "is_root": false,
-            "monkey_stats": {
-                "generation": 3,
-                "rarity_score": 12.5,
-                "age_days": 7
-            },
-            "monkey_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400' style='width:100%;height:100%'><circle cx='200' cy='200' r='180' fill='#2d2d2d'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='50' fill='#ff6b9d'>👾</text></svg>"
         }
     ]
 }

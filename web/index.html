@@ -4,13 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ForkMonkey - Cyberpunk Edition</title>
+    <title>ForkMonkey - AI-Evolving Digital Collectibles on GitHub</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="ForkMonkey: Your digital pet that lives forever on GitHub and evolves daily with AI. Fork to breed, collect rare traits, and join the community.">
+    <meta name="keywords"
+        content="ForkMonkey, GitHub, digital pet, AI evolution, NFT alternative, collectibles, fork breeding">
+    <meta name="author" content="ForkZoo">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="ForkMonkey - AI-Evolving Digital Collectibles">
+    <meta property="og:description" content="Your digital pet that lives forever on GitHub and evolves daily with AI.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="monkey_data/monkey.svg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ForkMonkey">
+    <meta name="twitter:description" content="AI-evolving digital collectibles on GitHub">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
         rel="stylesheet">
 
     <!-- Custom styles -->
@@ -21,184 +40,333 @@
     <!-- Particle background -->
     <div id="particles-js"></div>
 
-    <!-- Main container -->
-    <div class="container">
-        <!-- Header -->
-        <header class="header glass-panel">
-            <div class="logo-container">
-                <div class="pixel-icon">🐵</div>
-                <div class="title-wrapper">
-                    <h1 class="title">FORKMONKEY</h1>
-                    <div class="subtitle">COMMUNITY EDITION</div>
+    <!-- Main App Container -->
+    <div class="app-container">
+
+        <!-- Navigation Header -->
+        <nav class="nav-header glass-panel">
+            <div class="nav-brand">
+                <div class="brand-icon">🐵</div>
+                <div class="brand-text">
+                    <h1>FORKMONKEY</h1>
+                    <span class="brand-tagline">AI EVOLUTION ENGINE</span>
                 </div>
             </div>
 
-            <!-- Navigation Tabs -->
-            <nav class="main-nav">
-                <button class="nav-tab active" data-tab="dashboard">DASHBOARD</button>
-                <button class="nav-tab" data-tab="history">HISTORY</button>
-                <button class="nav-tab" data-tab="community">COMMUNITY</button>
-            </nav>
+            <div class="nav-tabs" id="nav-tabs">
+                <button class="nav-tab active" data-tab="dashboard">
+                    <span class="tab-icon">🏠</span>
+                    <span class="tab-text">Dashboard</span>
+                </button>
+                <button class="nav-tab" data-tab="evolution">
+                    <span class="tab-icon">📜</span>
+                    <span class="tab-text">Evolution</span>
+                </button>
+                <button class="nav-tab" data-tab="community">
+                    <span class="tab-icon">🌍</span>
+                    <span class="tab-text">Community</span>
+                </button>
+                <button class="nav-tab" data-tab="leaderboard">
+                    <span class="tab-icon">🏆</span>
+                    <span class="tab-text">Leaderboard</span>
+                </button>
+                <button class="nav-tab" data-tab="family-tree">
+                    <span class="tab-icon">🌳</span>
+                    <span class="tab-text">Family Tree</span>
+                </button>
+            </div>
 
-            <div class="header-stats">
-                <div class="stat-badge">
-                    <span class="stat-label">GEN</span>
-                    <span class="stat-value" id="generation">-</span>
+            <div class="nav-stats">
+                <div class="quick-stat">
+                    <span class="stat-icon">🧬</span>
+                    <span class="stat-value" id="nav-generation">-</span>
                 </div>
-                <div class="stat-badge">
-                    <span class="stat-label">AGE</span>
-                    <span class="stat-value" id="age">-</span>
-                </div>
-                <div class="stat-badge rarity-badge">
-                    <span class="stat-label">RARITY</span>
-                    <span class="stat-value" id="rarity">-</span>
+                <div class="quick-stat">
+                    <span class="stat-icon">⭐</span>
+                    <span class="stat-value" id="nav-rarity">-</span>
                 </div>
             </div>
-        </header>
+        </nav>
 
-        <!-- Tab Content: Dashboard -->
-        <div id="dashboard" class="tab-content active">
-            <div class="content-grid">
-                <!-- Left panel - Monkey display -->
-                <div class="panel monkey-panel glass-panel">
-                    <div class="panel-header">
-                        <h2>YOUR MONKEY</h2>
-                        <div class="dna-hash" id="dna-hash">Loading...</div>
-                    </div>
-                    <div class="monkey-display">
-                        <div class="monkey-container" id="monkey-svg">
-                            <!-- SVG will be loaded here -->
-                            <div class="loading-spinner">
-                                <p>INITIALIZING SEQUENCE...</p>
+        <!-- Main Content Area -->
+        <main class="main-content">
+
+            <!-- Dashboard Tab -->
+            <section id="dashboard" class="tab-content active">
+                <div class="dashboard-layout">
+
+                    <!-- Hero Monkey Display -->
+                    <div class="hero-panel glass-panel">
+                        <div class="monkey-showcase">
+                            <div class="monkey-glow"></div>
+                            <div class="monkey-frame" id="monkey-frame">
+                                <div class="loading-state">
+                                    <div class="loader"></div>
+                                    <p>Initializing DNA sequence...</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="monkey-info">
-                            <div class="info-row">
-                                <span class="info-label">Mutations</span>
-                                <span class="info-value" id="mutations">0</span>
+
+                        <div class="monkey-identity">
+                            <div class="dna-badge">
+                                <span class="dna-label">DNA HASH</span>
+                                <code class="dna-value" id="dna-hash">Loading...</code>
+                                <button class="copy-btn" onclick="ForkMonkey.copyDNA()" title="Copy DNA">📋</button>
                             </div>
-                            <div class="info-row">
-                                <span class="info-label">Parent</span>
-                                <span class="info-value" id="parent">Genesis</span>
+
+                            <div class="action-buttons">
+                                <button class="action-btn primary" onclick="ForkMonkey.downloadSVG()">
+                                    <span>📥</span> Download SVG
+                                </button>
+                                <button class="action-btn" onclick="ForkMonkey.exportDNA()">
+                                    <span>🧬</span> Export DNA
+                                </button>
+                                <button class="action-btn" onclick="ForkMonkey.shareMonkey()">
+                                    <span>🔗</span> Share
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Panel -->
+                    <div class="stats-panel glass-panel">
+                        <h2 class="panel-title">📊 Statistics</h2>
+
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-icon-bg">🧬</div>
+                                <div class="stat-content">
+                                    <span class="stat-label">Generation</span>
+                                    <span class="stat-number" id="stat-generation">-</span>
+                                </div>
+                            </div>
+
+                            <div class="stat-card">
+                                <div class="stat-icon-bg">📅</div>
+                                <div class="stat-content">
+                                    <span class="stat-label">Age</span>
+                                    <span class="stat-number" id="stat-age">- days</span>
+                                </div>
+                            </div>
+
+                            <div class="stat-card highlight">
+                                <div class="stat-icon-bg">⭐</div>
+                                <div class="stat-content">
+                                    <span class="stat-label">Rarity Score</span>
+                                    <span class="stat-number" id="stat-rarity">-</span>
+                                </div>
+                            </div>
+
+                            <div class="stat-card">
+                                <div class="stat-icon-bg">🔄</div>
+                                <div class="stat-content">
+                                    <span class="stat-label">Mutations</span>
+                                    <span class="stat-number" id="stat-mutations">-</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="parent-info">
+                            <span class="parent-label">Parent:</span>
+                            <span class="parent-value" id="stat-parent">Genesis</span>
+                        </div>
+                    </div>
+
+                    <!-- Traits Panel -->
+                    <div class="traits-panel glass-panel">
+                        <h2 class="panel-title">✨ Traits</h2>
+                        <div class="traits-list" id="traits-list">
+                            <div class="loading-state small">
+                                <div class="loader"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Network Overview Mini -->
+                    <div class="network-mini glass-panel">
+                        <h2 class="panel-title">🌐 Network</h2>
+                        <div class="network-stats-mini">
+                            <div class="mini-stat">
+                                <span class="mini-value" id="network-total">-</span>
+                                <span class="mini-label">Monkeys</span>
+                            </div>
+                            <div class="mini-stat">
+                                <span class="mini-value" id="network-active">-</span>
+                                <span class="mini-label">Active Today</span>
+                            </div>
+                            <div class="mini-stat">
+                                <span class="mini-value" id="network-avg-rarity">-</span>
+                                <span class="mini-label">Avg Rarity</span>
+                            </div>
+                        </div>
+                        <p class="last-updated" id="network-updated">Last scan: -</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Evolution Timeline Tab -->
+            <section id="evolution" class="tab-content">
+                <div class="evolution-layout">
+                    <div class="evolution-header glass-panel">
+                        <h2>📜 Evolution Timeline</h2>
+                        <div class="evolution-meta">
+                            <span class="meta-item">
+                                <span class="meta-icon">📅</span>
+                                <span id="evolution-count">0</span> evolutions recorded
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-container glass-panel">
+                        <div class="timeline-scroll" id="evolution-timeline">
+                            <div class="loading-state">
+                                <div class="loader"></div>
+                                <p>Loading evolution history...</p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </section>
 
-                <!-- Right panel - Traits -->
-                <div class="panel traits-panel glass-panel">
-                    <div class="panel-header">
-                        <h2>TRAITS</h2>
-                        <button class="nes-btn refresh-btn" onclick="loadMonkeyData()">
-                            <span>↻</span>
-                        </button>
-                    </div>
-                    <div class="traits-grid" id="traits-grid">
-                        <!-- Traits will be loaded here -->
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Tab Content: History -->
-        <div id="history" class="tab-content">
-            <div class="panel glass-panel full-width">
-                <div class="panel-header">
-                    <h2>EVOLUTION TIMELINE</h2>
-                    <div class="status-indicator">
-                        <span class="status-dot active"></span>
-                        <span id="evolution-count">0</span> generations
-                    </div>
-                </div>
-                <div class="evolution-timeline" id="evolution-timeline">
-                    <!-- Evolution SVGs will be loaded here -->
-                    <div class="loading-spinner">
-                        <p>LOADING EVOLUTION HISTORY...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Tab Content: Community -->
-        <div id="community" class="tab-content">
-            <!-- GitHub Token Settings -->
-            <button class="settings-toggle" onclick="toggleSettings()">
-                <span>⚙️</span>
-                <span>GitHub API Settings</span>
-            </button>
-
-            <div class="settings-panel" id="settings-panel">
-                <p style="color: var(--text-muted); font-size: var(--font-sm); margin-bottom: var(--spacing-sm);">
-                    Enter your GitHub Personal Access Token for higher API rate limits (5000/hour vs 60/hour)
-                </p>
-                <div class="token-input-group">
-                    <input type="password" class="token-input" id="github-token"
-                        placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" />
-                    <button class="nes-btn" onclick="saveGitHubToken()">
-                        <span>SAVE</span>
-                    </button>
-                    <button class="nes-btn" onclick="clearGitHubToken()">
-                        <span>CLEAR</span>
-                    </button>
-                </div>
-                <p style="color: var(--text-dim); font-size: var(--font-xs); margin-top: var(--spacing-sm);">
-                    Token is stored locally in your browser. <a href="https://github.com/settings/tokens"
-                        target="_blank" style="color: var(--primary);">Create token</a>
-                </p>
-            </div>
-
-            <div class="panel glass-panel full-width">
-                <div class="panel-header">
-                    <h2>FORKZOO COMMUNITY</h2>
-                    <div style="display: flex; gap: var(--spacing-sm); align-items: center;">
-                        <div class="status-indicator" id="community-status">
-                            <span class="status-dot"></span>
-                            <span id="community-status-text">Idle</span>
+            <!-- Community Gallery Tab -->
+            <section id="community" class="tab-content">
+                <div class="community-layout">
+                    <div class="community-header glass-panel">
+                        <h2>🌍 Community Gallery</h2>
+                        <div class="community-controls">
+                            <div class="filter-group">
+                                <label>Sort by:</label>
+                                <select id="community-sort" onchange="ForkMonkey.sortCommunity()">
+                                    <option value="rarity">Rarity (High → Low)</option>
+                                    <option value="rarity-asc">Rarity (Low → High)</option>
+                                    <option value="age">Age (Oldest First)</option>
+                                    <option value="recent">Recently Updated</option>
+                                    <option value="generation">Generation</option>
+                                </select>
+                            </div>
+                            <div class="community-count">
+                                <span id="community-total">0</span> monkeys in the wild
+                            </div>
                         </div>
-                        <button class="nes-btn" onclick="loadCommunityData()">
-                            <span>SCAN NETWORK</span>
-                        </button>
+                    </div>
+
+                    <div class="community-grid" id="community-grid">
+                        <div class="loading-state">
+                            <div class="loader"></div>
+                            <p>Scanning the ForkNet...</p>
+                        </div>
                     </div>
                 </div>
+            </section>
 
-                <div class="community-grid" id="community-grid">
-                    <div class="loading-spinner">
-                        <p>READY TO SCAN...</p>
+            <!-- Leaderboard Tab -->
+            <section id="leaderboard" class="tab-content">
+                <div class="leaderboard-layout">
+                    <div class="leaderboard-header glass-panel">
+                        <h2>🏆 Rarity Leaderboard</h2>
+                        <div class="leaderboard-meta">
+                            <span id="leaderboard-your-rank" class="your-rank">Your rank: -</span>
+                        </div>
+                    </div>
+
+                    <div class="leaderboard-table-container glass-panel">
+                        <table class="leaderboard-table" id="leaderboard-table">
+                            <thead>
+                                <tr>
+                                    <th class="rank-col">Rank</th>
+                                    <th class="monkey-col">Monkey</th>
+                                    <th class="owner-col">Owner</th>
+                                    <th class="rarity-col">Rarity</th>
+                                    <th class="gen-col">Gen</th>
+                                    <th class="age-col">Age</th>
+                                </tr>
+                            </thead>
+                            <tbody id="leaderboard-body">
+                                <tr>
+                                    <td colspan="6" class="loading-cell">
+                                        <div class="loader"></div>
+                                        <span>Loading rankings...</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
 
-        <!-- Modal for full-size SVG viewing -->
-        <div class="modal-overlay" id="svg-modal">
-            <div class="modal-content">
-                <button class="modal-close" onclick="closeModal()">×</button>
-                <div class="modal-svg-container" id="modal-svg-container">
-                    <!-- SVG will be loaded here -->
+            <!-- Family Tree Tab -->
+            <section id="family-tree" class="tab-content">
+                <div class="family-tree-layout">
+                    <div class="tree-header glass-panel">
+                        <h2>🌳 Family Tree</h2>
+                        <div class="tree-controls">
+                            <button class="tree-btn" onclick="ForkMonkey.zoomTree(1.2)">➕ Zoom In</button>
+                            <button class="tree-btn" onclick="ForkMonkey.zoomTree(0.8)">➖ Zoom Out</button>
+                            <button class="tree-btn" onclick="ForkMonkey.resetTree()">🔄 Reset</button>
+                        </div>
+                        <div class="tree-legend">
+                            <span class="legend-item"><span class="dot root"></span> Root</span>
+                            <span class="legend-item"><span class="dot fork"></span> Fork</span>
+                            <span class="legend-item"><span class="dot current"></span> You</span>
+                        </div>
+                    </div>
+
+                    <div class="tree-container glass-panel" id="tree-container">
+                        <div class="tree-canvas" id="family-tree-canvas">
+                            <div class="loading-state">
+                                <div class="loader"></div>
+                                <p>Building family tree...</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </section>
+        </main>
 
         <!-- Footer -->
-        <footer class="footer glass-panel">
+        <footer class="app-footer glass-panel">
             <div class="footer-content">
-                <p>🧬 AI EVOLUTION ENGINE • 2025</p>
-                <div class="social-links">
-                    <a href="https://github.com" class="nes-btn" target="_blank">
-                        <span>GITHUB</span>
+                <div class="footer-brand">
+                    <span class="footer-logo">🐵</span>
+                    <span class="footer-text">ForkMonkey © 2025</span>
+                </div>
+
+                <div class="footer-links">
+                    <a href="https://github.com/roeiba/forkMonkey" target="_blank" class="footer-link">
+                        <span>📂</span> GitHub
                     </a>
-                    <button class="nes-btn" onclick="downloadMonkey()">
-                        <span>DOWNLOAD DNA</span>
-                    </button>
+                    <a href="https://github.com/roeiba/forkMonkey/fork" target="_blank" class="footer-link highlight">
+                        <span>🍴</span> Fork to Breed!
+                    </a>
+                </div>
+
+                <div class="footer-stats">
+                    <span class="footer-stat">
+                        <span class="stat-emoji">🧬</span>
+                        AI-powered evolution
+                    </span>
                 </div>
             </div>
         </footer>
     </div>
 
+    <!-- Modal for viewing details -->
+    <div class="modal-overlay" id="detail-modal">
+        <div class="modal-content glass-panel">
+            <button class="modal-close" onclick="ForkMonkey.closeModal()">×</button>
+            <div class="modal-body" id="modal-body">
+                <!-- Dynamic content -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast notifications -->
+    <div class="toast-container" id="toast-container"></div>
+
     <!-- Particles.js -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-    <!-- Custom script -->
+    <!-- Main app script -->
     <script src="script.js"></script>
 </body>
 
