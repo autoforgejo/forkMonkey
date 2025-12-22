@@ -1,9 +1,9 @@
 {
   "generation": 1,
   "parent_id": null,
-  "dna_hash": "98b4e15e30b47956",
+  "dna_hash": "912ee3748be4e500",
   "mutation_count": 0,
-  "birth_timestamp": 660576,
+  "birth_timestamp": 367507,
   "traits": {
     "body_color": {
       "value": "tan",
@@ -11,30 +11,30 @@
       "gene_sequence": "11949536"
     },
     "face_expression": {
-      "value": "happy",
+      "value": "neutral",
       "rarity": "common",
-      "gene_sequence": "84ed1537"
+      "gene_sequence": "374db983"
     },
     "accessory": {
-      "value": "crown",
-      "rarity": "uncommon",
-      "gene_sequence": "fa89ebac"
-    },
-    "pattern": {
-      "value": "flames",
-      "rarity": "rare",
-      "gene_sequence": "039bcf26"
-    },
-    "background": {
-      "value": "green_grass",
-      "rarity": "common",
-      "gene_sequence": "976ee2e9"
-    },
-    "special": {
       "value": "none",
       "rarity": "common",
-      "gene_sequence": "9f7c3055"
+      "gene_sequence": "8f67e8db"
+    },
+    "pattern": {
+      "value": "hearts",
+      "rarity": "uncommon",
+      "gene_sequence": "0ca89700"
+    },
+    "background": {
+      "value": "city",
+      "rarity": "uncommon",
+      "gene_sequence": "2071a1d4"
+    },
+    "special": {
+      "value": "glow",
+      "rarity": "uncommon",
+      "gene_sequence": "0903c0f5"
     }
   },
-  "rarity_score": 18.333333333333332
+  "rarity_score": 15.0
 }
