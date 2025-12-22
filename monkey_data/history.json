@@ -271,6 +271,23 @@
       },
       "story": "Your monkey evolved! Changes: pattern: stars \u2192 hearts",
       "svg_filename": "2025-12-22_00-17_monkey.svg"
+    },
+    {
+      "timestamp": "2025-12-22T03:22:49.566388",
+      "dna_hash": "27c2b549c111f018",
+      "generation": 1,
+      "mutation_count": 0,
+      "rarity_score": 23.333333333333332,
+      "traits": {
+        "body_color": "blue",
+        "face_expression": "happy",
+        "accessory": "bandana",
+        "pattern": "stripes",
+        "background": "sunset",
+        "special": "aura"
+      },
+      "story": "\ud83c\udf89 Your monkey was born!",
+      "svg_filename": "2025-12-22_03-22_monkey.svg"
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "generation": 1,
   "parent_id": null,
-  "dna_hash": "30093e8a09e2d60a",
-  "mutation_count": 2,
-  "birth_timestamp": 465593,
+  "dna_hash": "27c2b549c111f018",
+  "mutation_count": 0,
+  "birth_timestamp": 607568,
   "traits": {
     "body_color": {
-      "value": "green",
+      "value": "blue",
       "rarity": "rare",
-      "gene_sequence": "bd474567"
+      "gene_sequence": "91b18de0"
     },
     "face_expression": {
-      "value": "sleepy",
+      "value": "happy",
       "rarity": "common",
-      "gene_sequence": "399185f3"
+      "gene_sequence": "84ed1537"
     },
     "accessory": {
-      "value": "monocle",
-      "rarity": "uncommon",
-      "gene_sequence": "4b7e2599"
+      "value": "bandana",
+      "rarity": "common",
+      "gene_sequence": "eef7e9dc"
     },
     "pattern": {
-      "value": "hearts",
-      "rarity": "uncommon",
-      "gene_sequence": "0ca89700"
+      "value": "stripes",
+      "rarity": "common",
+      "gene_sequence": "49a1b947"
     },
     "background": {
-      "value": "green_grass",
+      "value": "sunset",
       "rarity": "common",
-      "gene_sequence": "976ee2e9"
+      "gene_sequence": "5d4ff589"
     },
     "special": {
-      "value": "none",
-      "rarity": "common",
-      "gene_sequence": "9f7c3055"
+      "value": "aura",
+      "rarity": "rare",
+      "gene_sequence": "3a5b2f57"
     }
   },
-  "rarity_score": 20.0
+  "rarity_score": 23.333333333333332
 }
