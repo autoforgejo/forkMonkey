@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-01-29T01:30:27.666415+00:00",
+  "last_updated": "2026-01-30T01:30:15.161033+00:00",
   "total_monkeys": 33,
-  "active_today": 12,
+  "active_today": 13,
   "generations": {
     "1": 13,
     "2": 20
@@ -10,8 +10,8 @@
   "max_rarity": 48.33,
   "min_rarity": 10.0,
   "rarest_trait": {
-    "trait": "pattern",
-    "value": "nebula",
+    "trait": "special",
+    "value": "particles",
     "count": 1
   },
   "most_common_trait": {
@@ -21,16 +21,16 @@
   },
   "trait_distribution": {
     "body_color": {
-      "beige": 3,
+      "gray": 3,
       "tan": 6,
       "genesis_gold": 2,
+      "beige": 2,
       "silver": 4,
       "crystal": 2,
       "bronze": 2,
       "prismatic": 1,
       "copper": 1,
       "green": 1,
-      "gray": 2,
       "purple": 2,
       "golden": 3,
       "brown": 2,
@@ -38,15 +38,15 @@
     },
     "face_expression": {
       "curious": 3,
-      "happy": 3,
+      "neutral": 7,
       "cool": 1,
       "wise": 3,
-      "neutral": 6,
       "legendary": 1,
       "excited": 4,
       "cosmic": 1,
       "sleepy": 3,
       "mischievous": 1,
+      "happy": 2,
       "laughing": 1,
       "enlightened": 1,
       "surprised": 2,
@@ -80,8 +80,8 @@
       "nebula": 1
     },
     "background": {
-      "blue_sky": 7,
-      "white": 4,
+      "blue_sky": 6,
+      "white": 5,
       "space": 2,
       "volcano": 3,
       "sunset": 7,
@@ -93,11 +93,12 @@
     "special": {
       "transcendent": 1,
       "none": 19,
-      "shadow": 3,
-      "sparkles": 4,
-      "energy": 3,
-      "glow": 2,
-      "aura": 1
+      "shadow": 4,
+      "glow": 3,
+      "energy": 2,
+      "sparkles": 2,
+      "aura": 1,
+      "particles": 1
     }
   }
 }
