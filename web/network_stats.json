@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-02-02T01:48:08.207774+00:00",
+  "last_updated": "2026-02-03T01:47:16.507458+00:00",
   "total_monkeys": 33,
   "active_today": 13,
   "generations": {
     "1": 13,
     "2": 20
   },
-  "avg_rarity": 24.44,
+  "avg_rarity": 24.24,
   "max_rarity": 48.33,
   "min_rarity": 10.0,
   "rarest_trait": {
-    "trait": "special",
-    "value": "particles",
+    "trait": "pattern",
+    "value": "fractals",
     "count": 1
   },
   "most_common_trait": {
@@ -21,33 +21,33 @@
   },
   "trait_distribution": {
     "body_color": {
-      "gray": 4,
-      "beige": 3,
+      "gray": 5,
       "genesis_gold": 2,
+      "beige": 3,
       "silver": 3,
       "crystal": 2,
-      "bronze": 3,
+      "bronze": 4,
       "prismatic": 1,
       "copper": 1,
       "green": 1,
       "tan": 4,
-      "purple": 2,
+      "purple": 1,
       "golden": 2,
-      "brown": 2,
+      "brown": 1,
       "holographic": 2,
       "pink": 1
     },
     "face_expression": {
       "curious": 3,
-      "neutral": 7,
+      "neutral": 6,
       "cool": 1,
       "wise": 2,
+      "happy": 3,
       "legendary": 1,
       "excited": 4,
       "cosmic": 1,
       "sleepy": 3,
       "mischievous": 1,
-      "happy": 2,
       "winking": 4,
       "enlightened": 1,
       "surprised": 3
@@ -69,15 +69,15 @@
     "pattern": {
       "spots": 4,
       "stripes": 5,
-      "gradient": 5,
+      "gradient": 6,
       "solid": 4,
-      "hearts": 3,
+      "hearts": 2,
       "void": 1,
       "diamonds": 3,
       "swirls": 3,
       "stars": 3,
       "cosmic_dust": 1,
-      "nebula": 1
+      "fractals": 1
     },
     "background": {
       "blue_sky": 5,
@@ -85,8 +85,8 @@
       "space": 2,
       "volcano": 3,
       "sunset": 6,
-      "beach": 3,
-      "forest": 2,
+      "beach": 4,
+      "forest": 1,
       "green_grass": 5,
       "underwater": 1
     },
@@ -97,8 +97,7 @@
       "glow": 2,
       "energy": 2,
       "sparkles": 3,
-      "aura": 1,
-      "particles": 1
+      "aura": 2
     }
   }
 }
