@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-02-06T01:43:13.927501+00:00",
+  "last_updated": "2026-02-07T01:29:59.557979+00:00",
   "total_monkeys": 33,
   "active_today": 13,
   "generations": {
     "1": 13,
     "2": 20
   },
-  "avg_rarity": 24.55,
+  "avg_rarity": 24.8,
   "max_rarity": 48.33,
   "min_rarity": 10.0,
   "rarest_trait": {
     "trait": "accessory",
-    "value": "horns",
+    "value": "golden_crown",
     "count": 1
   },
   "most_common_trait": {
@@ -49,9 +49,9 @@
       "happy": 2,
       "laughing": 1,
       "enlightened": 1,
-      "surprised": 3,
+      "surprised": 4,
       "wise": 1,
-      "winking": 3
+      "winking": 2
     },
     "accessory": {
       "bandana": 3,
@@ -66,7 +66,7 @@
       "monocle": 1,
       "crown": 2,
       "wizard_hat": 1,
-      "horns": 1
+      "golden_crown": 1
     },
     "pattern": {
       "spots": 4,
