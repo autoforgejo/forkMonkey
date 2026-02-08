@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-07T01:29:59.557979+00:00",
+  "last_updated": "2026-02-08T02:06:31.731285+00:00",
   "total_monkeys": 33,
-  "active_today": 13,
+  "active_today": 12,
   "generations": {
     "1": 13,
     "2": 20
   },
-  "avg_rarity": 24.8,
+  "avg_rarity": 24.55,
   "max_rarity": 48.33,
   "min_rarity": 10.0,
   "rarest_trait": {
@@ -17,20 +17,20 @@
   "most_common_trait": {
     "trait": "special",
     "value": "none",
-    "count": 19
+    "count": 20
   },
   "trait_distribution": {
     "body_color": {
-      "tan": 6,
       "gray": 4,
       "genesis_gold": 2,
-      "beige": 2,
+      "beige": 3,
       "silver": 3,
       "crystal": 2,
       "bronze": 4,
       "prismatic": 1,
       "copper": 1,
       "green": 1,
+      "tan": 5,
       "purple": 1,
       "golden": 2,
       "brown": 1,
@@ -38,15 +38,15 @@
       "pink": 1
     },
     "face_expression": {
-      "curious": 3,
-      "neutral": 8,
+      "excited": 4,
+      "neutral": 6,
       "cool": 3,
+      "happy": 3,
       "legendary": 1,
-      "excited": 3,
       "cosmic": 1,
-      "sleepy": 2,
+      "curious": 2,
+      "sleepy": 3,
       "mischievous": 1,
-      "happy": 2,
       "laughing": 1,
       "enlightened": 1,
       "surprised": 4,
@@ -69,9 +69,9 @@
       "golden_crown": 1
     },
     "pattern": {
-      "spots": 4,
+      "spots": 5,
       "stripes": 5,
-      "gradient": 7,
+      "gradient": 6,
       "stars": 4,
       "void": 1,
       "diamonds": 3,
@@ -79,26 +79,25 @@
       "solid": 2,
       "cosmic_dust": 1,
       "hearts": 2,
-      "fractals": 1
+      "nebula": 1
     },
     "background": {
-      "green_grass": 4,
+      "green_grass": 5,
       "sunset": 8,
       "space": 2,
       "blue_sky": 5,
-      "white": 4,
+      "white": 3,
       "volcano": 3,
       "beach": 5,
       "forest": 1,
       "underwater": 1
     },
     "special": {
-      "transcendent": 1,
-      "none": 19,
+      "energy": 3,
+      "none": 20,
       "shadow": 4,
       "glow": 2,
-      "energy": 2,
-      "sparkles": 3,
+      "sparkles": 2,
       "aura": 1,
       "particles": 1
     }
