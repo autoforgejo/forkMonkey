@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-12T01:49:39.719392+00:00",
+  "last_updated": "2026-02-13T01:52:01.197475+00:00",
   "total_monkeys": 33,
   "active_today": 13,
   "generations": {
@@ -21,8 +21,8 @@
   },
   "trait_distribution": {
     "body_color": {
-      "gray": 3,
-      "tan": 6,
+      "gray": 2,
+      "tan": 7,
       "genesis_gold": 2,
       "beige": 3,
       "silver": 3,
