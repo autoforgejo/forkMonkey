@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-24T01:45:18.552013+00:00",
+  "last_updated": "2026-02-25T01:47:52.109392+00:00",
   "total_monkeys": 33,
   "active_today": 12,
   "generations": {
     "1": 14,
     "2": 19
   },
-  "avg_rarity": 25.2,
+  "avg_rarity": 25.35,
   "max_rarity": 46.67,
   "min_rarity": 10.0,
   "rarest_trait": {
@@ -60,9 +60,9 @@
       "bow": 2,
       "none": 7,
       "simple_hat": 3,
-      "jetpack": 2,
+      "jetpack": 1,
       "sunglasses": 1,
-      "wings": 1,
+      "wings": 2,
       "laser_eyes": 2,
       "headphones": 3,
       "monocle": 1,
@@ -85,12 +85,12 @@
     "background": {
       "white": 6,
       "space": 2,
-      "beach": 6,
-      "volcano": 3,
+      "beach": 5,
+      "volcano": 4,
       "sunset": 7,
       "forest": 1,
-      "green_grass": 4,
-      "blue_sky": 2,
+      "green_grass": 3,
+      "blue_sky": 3,
       "underwater": 1,
       "mountains": 1
     },
