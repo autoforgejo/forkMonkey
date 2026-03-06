@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-03-05T01:44:45.858531+00:00",
+  "last_updated": "2026-03-06T01:46:46.122175+00:00",
   "total_monkeys": 33,
   "active_today": 12,
   "generations": {
     "1": 14,
     "2": 19
   },
-  "avg_rarity": 25.45,
+  "avg_rarity": 25.61,
   "max_rarity": 50.0,
   "min_rarity": 10.0,
   "rarest_trait": {
-    "trait": "face_expression",
-    "value": "wise",
+    "trait": "accessory",
+    "value": "diamond_chain",
     "count": 1
   },
   "most_common_trait": {
@@ -38,7 +38,8 @@
       "holographic": 2
     },
     "face_expression": {
-      "excited": 5,
+      "winking": 3,
+      "excited": 4,
       "sleepy": 3,
       "cool": 2,
       "curious": 3,
@@ -49,7 +50,6 @@
       "happy": 2,
       "laughing": 2,
       "enlightened": 1,
-      "winking": 2,
       "surprised": 2,
       "wise": 1
     },
@@ -59,20 +59,21 @@
       "none": 7,
       "simple_hat": 4,
       "crown": 3,
-      "jetpack": 2,
+      "jetpack": 1,
       "sunglasses": 1,
       "wings": 2,
       "laser_eyes": 2,
       "headphones": 3,
-      "monocle": 1
+      "monocle": 1,
+      "diamond_chain": 1
     },
     "pattern": {
       "spots": 6,
-      "diamonds": 4,
+      "diamonds": 6,
       "gradient": 6,
-      "swirls": 5,
       "aurora": 1,
       "stripes": 3,
+      "swirls": 3,
       "stars": 2,
       "solid": 2,
       "void": 1,
