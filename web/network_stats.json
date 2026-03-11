@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-10T01:28:28.788684+00:00",
+  "last_updated": "2026-03-11T01:28:25.360192+00:00",
   "total_monkeys": 33,
   "active_today": 12,
   "generations": {
     "1": 14,
     "2": 19
   },
-  "avg_rarity": 25.0,
+  "avg_rarity": 24.95,
   "max_rarity": 50.0,
   "min_rarity": 10.0,
   "rarest_trait": {
@@ -23,7 +23,7 @@
     "body_color": {
       "crystal": 1,
       "gray": 2,
-      "tan": 9,
+      "tan": 8,
       "genesis_gold": 2,
       "golden": 4,
       "rainbow": 1,
@@ -31,7 +31,7 @@
       "prismatic": 1,
       "copper": 1,
       "green": 1,
-      "beige": 1,
+      "beige": 2,
       "silver": 2,
       "purple": 1,
       "brown": 2,
@@ -39,11 +39,11 @@
       "holographic": 2
     },
     "face_expression": {
-      "winking": 3,
+      "winking": 2,
       "excited": 4,
-      "sleepy": 4,
+      "sleepy": 3,
       "cool": 1,
-      "neutral": 6,
+      "neutral": 7,
       "mischievous": 4,
       "legendary": 1,
       "cosmic": 1,
@@ -51,17 +51,17 @@
       "happy": 2,
       "laughing": 1,
       "enlightened": 1,
-      "surprised": 2,
+      "surprised": 3,
       "wise": 1
     },
     "accessory": {
-      "bandana": 6,
-      "bow": 3,
+      "bandana": 4,
+      "bow": 4,
       "none": 6,
-      "simple_hat": 4,
-      "crown": 2,
+      "simple_hat": 5,
+      "crown": 1,
       "jetpack": 1,
-      "sunglasses": 2,
+      "sunglasses": 3,
       "wings": 2,
       "laser_eyes": 2,
       "headphones": 2,
@@ -73,12 +73,12 @@
       "diamonds": 6,
       "gradient": 6,
       "aurora": 1,
-      "stripes": 3,
+      "stripes": 4,
       "swirls": 3,
       "stars": 2,
       "solid": 2,
       "void": 1,
-      "hearts": 3
+      "hearts": 2
     },
     "background": {
       "green_grass": 3,
@@ -96,9 +96,9 @@
     "special": {
       "none": 19,
       "godlike": 1,
-      "shadow": 5,
+      "shadow": 4,
       "energy": 2,
-      "glow": 3,
+      "glow": 4,
       "sparkles": 2,
       "aura": 1
     }
