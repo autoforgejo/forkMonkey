@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-19T01:51:28.606806+00:00",
+  "last_updated": "2026-03-20T01:45:44.393404+00:00",
   "total_monkeys": 33,
   "active_today": 12,
   "generations": {
     "1": 14,
     "2": 19
   },
-  "avg_rarity": 24.8,
+  "avg_rarity": 25.1,
   "max_rarity": 45.0,
   "min_rarity": 10.0,
   "rarest_trait": {
@@ -17,7 +17,7 @@
   "most_common_trait": {
     "trait": "special",
     "value": "none",
-    "count": 20
+    "count": 21
   },
   "trait_distribution": {
     "body_color": {
@@ -26,10 +26,10 @@
       "copper": 3,
       "genesis_gold": 2,
       "tan": 7,
-      "blue": 1,
-      "green": 2,
+      "blue": 2,
       "bronze": 2,
       "prismatic": 1,
+      "green": 1,
       "beige": 2,
       "silver": 2,
       "purple": 2,
@@ -38,20 +38,20 @@
       "golden": 2
     },
     "face_expression": {
-      "winking": 2,
-      "excited": 4,
+      "enlightened": 2,
+      "excited": 5,
       "sleepy": 3,
       "cool": 2,
       "neutral": 6,
-      "mischievous": 3,
       "legendary": 1,
       "cosmic": 1,
       "curious": 2,
+      "mischievous": 2,
       "happy": 3,
       "laughing": 1,
-      "enlightened": 1,
       "surprised": 3,
-      "wise": 1
+      "wise": 1,
+      "winking": 1
     },
     "accessory": {
       "headphones": 4,
@@ -62,20 +62,21 @@
       "sunglasses": 4,
       "wings": 1,
       "bandana": 2,
-      "laser_eyes": 3,
+      "laser_eyes": 2,
       "monocle": 1,
+      "wizard_hat": 1,
       "golden_crown": 1
     },
     "pattern": {
-      "spots": 7,
-      "diamonds": 6,
+      "spots": 4,
+      "diamonds": 7,
       "gradient": 6,
+      "solid": 3,
       "lightning": 1,
       "aurora": 1,
       "stripes": 4,
-      "swirls": 3,
+      "swirls": 4,
       "stars": 2,
-      "solid": 2,
       "void": 1
     },
     "background": {
@@ -92,12 +93,12 @@
       "underwater": 1
     },
     "special": {
-      "none": 20,
+      "none": 21,
       "godlike": 1,
       "shadow": 4,
       "energy": 2,
-      "glow": 3,
-      "sparkles": 2,
+      "glow": 1,
+      "sparkles": 3,
       "aura": 1
     }
   }
