@@ -2141,6 +2141,23 @@
       },
       "story": "Your monkey evolved! Changes: body_color: copper \u2192 brown",
       "svg_filename": "2026-03-22_02-43_monkey.svg"
+    },
+    {
+      "timestamp": "2026-03-23T02:43:36.967568",
+      "dna_hash": "c26316673c3c514b",
+      "generation": 2,
+      "mutation_count": 45,
+      "rarity_score": 11.666666666666666,
+      "traits": {
+        "body_color": "brown",
+        "face_expression": "sleepy",
+        "accessory": "bow",
+        "pattern": "solid",
+        "background": "mountains",
+        "special": "none"
+      },
+      "story": "Your monkey evolved! Changes: pattern: diamonds \u2192 solid",
+      "svg_filename": "2026-03-23_02-43_monkey.svg"
     }
   ]
 }
