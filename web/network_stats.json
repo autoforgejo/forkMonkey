@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-24T01:43:59.208683+00:00",
+  "last_updated": "2026-03-25T01:49:39.653036+00:00",
   "total_monkeys": 33,
   "active_today": 12,
   "generations": {
     "1": 14,
     "2": 19
   },
-  "avg_rarity": 25.3,
+  "avg_rarity": 25.25,
   "max_rarity": 46.67,
   "min_rarity": 10.0,
   "rarest_trait": {
@@ -81,8 +81,8 @@
     },
     "background": {
       "green_grass": 3,
-      "white": 3,
-      "mountains": 2,
+      "white": 4,
+      "mountains": 1,
       "space": 2,
       "city": 3,
       "forest": 3,
