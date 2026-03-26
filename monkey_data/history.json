@@ -2192,6 +2192,23 @@
       },
       "story": "Your monkey evolved! Changes: body_color: brown \u2192 tan",
       "svg_filename": "2026-03-25_02-40_monkey.svg"
+    },
+    {
+      "timestamp": "2026-03-26T02:47:29.966947",
+      "dna_hash": "e2346a49376a1f9b",
+      "generation": 2,
+      "mutation_count": 46,
+      "rarity_score": 11.666666666666666,
+      "traits": {
+        "body_color": "tan",
+        "face_expression": "sleepy",
+        "accessory": "bow",
+        "pattern": "solid",
+        "background": "mountains",
+        "special": "none"
+      },
+      "story": "Your monkey rested today. No visible changes.",
+      "svg_filename": "2026-03-26_02-47_monkey.svg"
     }
   ]
 }
