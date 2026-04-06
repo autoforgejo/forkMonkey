@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-05T02:00:45.291084+00:00",
+  "last_updated": "2026-04-06T02:01:50.774640+00:00",
   "total_monkeys": 33,
   "active_today": 12,
   "generations": {
     "1": 13,
     "2": 20
   },
-  "avg_rarity": 24.44,
+  "avg_rarity": 24.65,
   "max_rarity": 45.0,
   "min_rarity": 10.0,
   "rarest_trait": {
@@ -37,32 +37,32 @@
       "golden": 1
     },
     "face_expression": {
-      "neutral": 7,
-      "happy": 7,
+      "wise": 2,
+      "happy": 5,
       "excited": 3,
       "curious": 4,
+      "neutral": 6,
       "legendary": 1,
       "cosmic": 1,
-      "sleepy": 3,
+      "sleepy": 4,
       "mischievous": 1,
       "laughing": 1,
       "enlightened": 1,
-      "surprised": 2,
-      "wise": 1,
-      "cool": 1
+      "cool": 2,
+      "surprised": 2
     },
     "accessory": {
       "halo": 2,
       "sunglasses": 3,
       "bow": 2,
       "simple_hat": 4,
-      "none": 6,
+      "headphones": 4,
       "bandana": 4,
       "jetpack": 1,
       "wings": 1,
+      "none": 5,
       "laser_eyes": 3,
       "monocle": 2,
-      "headphones": 3,
       "wizard_hat": 1,
       "horns": 1
     },
@@ -75,19 +75,20 @@
       "spots": 5,
       "aurora": 1,
       "gradient": 4,
-      "stripes": 4,
+      "stripes": 3,
       "stars": 2,
-      "void": 1
+      "void": 1,
+      "hearts": 1
     },
     "background": {
       "sunset": 7,
       "green_grass": 4,
       "white": 4,
       "underwater": 1,
-      "forest": 4,
-      "mountains": 1,
+      "mountains": 2,
       "space": 2,
       "beach": 4,
+      "forest": 3,
       "blue_sky": 2,
       "volcano": 2,
       "city": 1,
