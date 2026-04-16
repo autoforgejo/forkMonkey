@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-15T02:01:29.286359+00:00",
+  "last_updated": "2026-04-16T02:09:02.302636+00:00",
   "total_monkeys": 33,
   "active_today": 12,
   "generations": {
@@ -11,7 +11,7 @@
   "min_rarity": 10.0,
   "rarest_trait": {
     "trait": "background",
-    "value": "dimension_rift",
+    "value": "heaven",
     "count": 1
   },
   "most_common_trait": {
@@ -75,8 +75,8 @@
       "gradient": 5,
       "swirls": 4,
       "cosmic_dust": 1,
-      "stripes": 3,
-      "spots": 4,
+      "stripes": 4,
+      "spots": 3,
       "void": 1,
       "hearts": 1
     },
@@ -85,15 +85,14 @@
       "white": 5,
       "aurora": 2,
       "underwater": 1,
-      "mountains": 2,
+      "forest": 2,
       "space": 2,
       "sunset": 5,
-      "beach": 3,
-      "forest": 1,
+      "beach": 4,
       "blue_sky": 2,
       "volcano": 2,
       "city": 1,
-      "dimension_rift": 1
+      "heaven": 1
     },
     "special": {
       "shadow": 5,
