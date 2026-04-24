@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-23T02:08:01.524459+00:00",
+  "last_updated": "2026-04-24T02:08:33.153913+00:00",
   "total_monkeys": 33,
   "active_today": 12,
   "generations": {
     "1": 13,
     "2": 20
   },
-  "avg_rarity": 24.8,
+  "avg_rarity": 24.85,
   "max_rarity": 45.0,
   "min_rarity": 10.0,
   "rarest_trait": {
@@ -38,10 +38,10 @@
       "golden": 1
     },
     "face_expression": {
-      "excited": 4,
+      "excited": 5,
       "happy": 6,
       "sleepy": 3,
-      "curious": 4,
+      "curious": 3,
       "cool": 1,
       "legendary": 1,
       "cosmic": 1,
