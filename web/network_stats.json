@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04T02:27:07.659721+00:00",
+  "last_updated": "2026-05-05T02:15:24.976096+00:00",
   "total_monkeys": 33,
   "active_today": 12,
   "generations": {
@@ -10,14 +10,14 @@
   "max_rarity": 50.0,
   "min_rarity": 10.0,
   "rarest_trait": {
-    "trait": "accessory",
-    "value": "diamond_chain",
+    "trait": "background",
+    "value": "multiverse",
     "count": 1
   },
   "most_common_trait": {
     "trait": "special",
     "value": "none",
-    "count": 16
+    "count": 15
   },
   "trait_distribution": {
     "body_color": {
@@ -25,28 +25,28 @@
       "copper": 2,
       "tan": 5,
       "gray": 4,
-      "golden": 3,
+      "golden": 2,
       "beige": 4,
       "bronze": 3,
+      "brown": 2,
       "prismatic": 1,
       "genesis_gold": 1,
       "green": 1,
       "silver": 2,
-      "brown": 1,
       "galaxy": 1,
       "holographic": 2,
       "blue": 1
     },
     "face_expression": {
-      "cool": 2,
+      "cool": 3,
       "happy": 7,
       "excited": 5,
       "sleepy": 3,
-      "mischievous": 2,
       "legendary": 1,
       "cosmic": 1,
       "neutral": 5,
       "curious": 1,
+      "mischievous": 1,
       "surprised": 3,
       "enlightened": 1,
       "wise": 2
@@ -55,15 +55,14 @@
       "jetpack": 2,
       "halo": 2,
       "sunglasses": 3,
-      "bow": 3,
+      "bow": 4,
       "simple_hat": 4,
       "headphones": 4,
       "monocle": 2,
-      "none": 7,
-      "wings": 1,
+      "wings": 2,
+      "none": 6,
       "bandana": 2,
-      "laser_eyes": 2,
-      "diamond_chain": 1
+      "laser_eyes": 2
     },
     "pattern": {
       "cosmic_dust": 1,
@@ -82,24 +81,24 @@
     "background": {
       "white": 6,
       "green_grass": 4,
-      "aurora": 2,
+      "aurora": 1,
       "blue_sky": 4,
       "mountains": 2,
       "city": 1,
       "sunset": 5,
       "beach": 4,
       "forest": 1,
+      "space": 2,
       "volcano": 2,
-      "space": 1,
       "multiverse": 1
     },
     "special": {
       "shadow": 5,
       "glow": 3,
-      "none": 16,
+      "none": 15,
       "godlike": 1,
+      "sparkles": 4,
       "energy": 3,
-      "sparkles": 3,
       "aura": 2
     }
   }
