@@ -2923,6 +2923,23 @@
       },
       "story": "Your monkey evolved! Changes: accessory: simple_hat \u2192 monocle",
       "svg_filename": "2026-05-07_03-37_monkey.svg"
+    },
+    {
+      "timestamp": "2026-05-08T03:32:29.431761",
+      "dna_hash": "9f1eac4e4d4ea934",
+      "generation": 2,
+      "mutation_count": 67,
+      "rarity_score": 26.666666666666668,
+      "traits": {
+        "body_color": "golden",
+        "face_expression": "sleepy",
+        "accessory": "monocle",
+        "pattern": "gradient",
+        "background": "aurora",
+        "special": "energy"
+      },
+      "story": "Your monkey evolved! Changes: special: glow \u2192 energy",
+      "svg_filename": "2026-05-08_03-32_monkey.svg"
     }
   ]
 }
