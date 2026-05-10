@@ -2957,6 +2957,23 @@
       },
       "story": "Your monkey evolved! Changes: special: energy \u2192 aura",
       "svg_filename": "2026-05-09_03-32_monkey.svg"
+    },
+    {
+      "timestamp": "2026-05-10T03:46:47.555583",
+      "dna_hash": "aa2bc488bb083c96",
+      "generation": 2,
+      "mutation_count": 69,
+      "rarity_score": 26.666666666666668,
+      "traits": {
+        "body_color": "golden",
+        "face_expression": "sleepy",
+        "accessory": "monocle",
+        "pattern": "solid",
+        "background": "aurora",
+        "special": "aura"
+      },
+      "story": "Your monkey evolved! Changes: pattern: gradient \u2192 solid",
+      "svg_filename": "2026-05-10_03-46_monkey.svg"
     }
   ]
 }
