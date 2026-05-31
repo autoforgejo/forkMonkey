@@ -85,7 +85,7 @@ Your monkey is born! Check the README or visit `https://YOUR-USERNAME.github.io/
 <!-- MONKEY_STATS_START -->
 | Generation | Age | Mutations | Rarity Score |
 |:----------:|:---:|:---------:|:------------:|
-| 2 | 195 days | 81 | 28.3/100 |
+| 2 | 196 days | 82 | 23.3/100 |
 <!-- MONKEY_STATS_END -->
 
 ---
@@ -240,7 +240,7 @@ forkMonkey/
 Your child inherits traits from this monkey + gets random mutations.
 
 <!-- LINEAGE_STATS_START -->
-🧬 **Notable Traits:** **Nebula** (rare), **Aura** (rare)
+🧬 **Notable Traits:** **Nebula** (rare)
 
 🍴 Fork to inherit these rare genetics!
 <!-- LINEAGE_STATS_END -->
