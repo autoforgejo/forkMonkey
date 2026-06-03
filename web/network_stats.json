@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-02T03:28:51.157340+00:00",
+  "last_updated": "2026-06-03T03:36:15.885856+00:00",
   "total_monkeys": 33,
-  "active_today": 10,
+  "active_today": 11,
   "generations": {
     "1": 13,
     "2": 20
@@ -35,8 +35,7 @@
       "silver": 1,
       "pink": 1,
       "brown": 2,
-      "rainbow": 1,
-      "holographic": 2
+      "holographic": 3
     },
     "face_expression": {
       "curious": 4,
@@ -84,12 +83,12 @@
     },
     "background": {
       "white": 9,
-      "blue_sky": 5,
-      "green_grass": 4,
-      "city": 1,
+      "blue_sky": 4,
+      "green_grass": 5,
+      "city": 2,
       "aurora": 1,
       "sunset": 4,
-      "beach": 4,
+      "beach": 3,
       "forest": 1,
       "space": 1,
       "volcano": 2,
