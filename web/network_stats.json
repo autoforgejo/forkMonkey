@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-06T02:40:39.033603+00:00",
+  "last_updated": "2026-06-07T02:59:05.661988+00:00",
   "total_monkeys": 33,
   "active_today": 11,
   "generations": {
     "1": 13,
     "2": 20
   },
-  "avg_rarity": 27.07,
+  "avg_rarity": 27.02,
   "max_rarity": 50.0,
   "min_rarity": 10.0,
   "rarest_trait": {
@@ -42,12 +42,12 @@
       "mischievous": 4,
       "happy": 6,
       "cool": 1,
-      "excited": 5,
+      "excited": 4,
       "curious": 3,
       "laughing": 1,
       "legendary": 2,
       "cosmic": 1,
-      "neutral": 4,
+      "neutral": 5,
       "enlightened": 1,
       "surprised": 2
     },
