@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-15T03:38:42.984206+00:00",
+  "last_updated": "2026-06-16T03:34:43.662872+00:00",
   "total_monkeys": 33,
-  "active_today": 11,
+  "active_today": 10,
   "generations": {
     "1": 13,
     "2": 20
@@ -10,8 +10,8 @@
   "max_rarity": 50.0,
   "min_rarity": 10.0,
   "rarest_trait": {
-    "trait": "special",
-    "value": "particles",
+    "trait": "face_expression",
+    "value": "wise",
     "count": 1
   },
   "most_common_trait": {
@@ -57,8 +57,8 @@
       "crown": 1,
       "monocle": 3,
       "sunglasses": 3,
-      "bow": 1,
-      "bandana": 5,
+      "bow": 2,
+      "bandana": 4,
       "simple_hat": 2,
       "wings": 2,
       "none": 5,
@@ -66,7 +66,7 @@
       "headphones": 3
     },
     "pattern": {
-      "spots": 4,
+      "spots": 5,
       "solid": 4,
       "swirls": 4,
       "diamonds": 6,
@@ -74,19 +74,19 @@
       "flames": 2,
       "nebula": 2,
       "hearts": 1,
-      "gradient": 3,
+      "gradient": 2,
       "stripes": 3,
       "stars": 2,
       "quantum": 1
     },
     "background": {
-      "green_grass": 7,
+      "sunset": 5,
       "blue_sky": 3,
       "white": 7,
+      "green_grass": 6,
       "mountains": 3,
       "volcano": 3,
       "space": 1,
-      "sunset": 4,
       "beach": 3,
       "forest": 1,
       "underwater": 1
@@ -98,8 +98,8 @@
       "godlike": 1,
       "sparkles": 2,
       "energy": 2,
-      "aura": 2,
-      "particles": 1
+      "aura": 1,
+      "particles": 2
     }
   }
 }
