@@ -3620,6 +3620,23 @@
       },
       "story": "Your monkey evolved! Changes: pattern: nebula \u2192 fractals",
       "svg_filename": "2026-06-17_04-42_monkey.svg"
+    },
+    {
+      "timestamp": "2026-06-18T04:25:14.573683",
+      "dna_hash": "6f5a85abffa5eb7b",
+      "generation": 2,
+      "mutation_count": 87,
+      "rarity_score": 28.333333333333332,
+      "traits": {
+        "body_color": "golden",
+        "face_expression": "laughing",
+        "accessory": "sunglasses",
+        "pattern": "fractals",
+        "background": "green_grass",
+        "special": "glow"
+      },
+      "story": "Your monkey evolved! Changes: special: none \u2192 glow",
+      "svg_filename": "2026-06-18_04-25_monkey.svg"
     }
   ]
 }
