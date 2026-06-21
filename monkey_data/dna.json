@@ -1,8 +1,8 @@
 {
   "generation": 2,
   "parent_id": "97f18a5151ced712",
-  "dna_hash": "6f5a85abffa5eb7b",
-  "mutation_count": 87,
+  "dna_hash": "9b06abe470161315",
+  "mutation_count": 88,
   "birth_timestamp": 681998,
   "traits": {
     "body_color": {
@@ -26,9 +26,9 @@
       "gene_sequence": "0021f769"
     },
     "background": {
-      "value": "green_grass",
+      "value": "blue_sky",
       "rarity": "common",
-      "gene_sequence": "976ee2e9"
+      "gene_sequence": "1893587b"
     },
     "special": {
       "value": "glow",
