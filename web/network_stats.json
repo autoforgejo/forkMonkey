@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-20T02:51:42.491812+00:00",
+  "last_updated": "2026-06-21T03:35:04.715817+00:00",
   "total_monkeys": 33,
-  "active_today": 10,
+  "active_today": 11,
   "generations": {
     "1": 13,
     "2": 20
@@ -27,13 +27,13 @@
       "tan": 4,
       "golden": 2,
       "bronze": 3,
-      "beige": 2,
+      "beige": 3,
       "prismatic": 1,
       "genesis_gold": 1,
       "green": 1,
       "silver": 3,
       "pink": 1,
-      "brown": 2,
+      "brown": 1,
       "rainbow": 1,
       "holographic": 2
     },
@@ -68,8 +68,8 @@
       "headphones": 3
     },
     "pattern": {
-      "spots": 4,
-      "solid": 4,
+      "spots": 3,
+      "solid": 5,
       "swirls": 4,
       "diamonds": 7,
       "cosmic_dust": 1,
@@ -85,12 +85,13 @@
       "blue_sky": 3,
       "white": 7,
       "green_grass": 6,
-      "mountains": 3,
+      "city": 1,
       "aurora": 1,
       "heaven": 1,
       "beach": 3,
       "forest": 1,
       "underwater": 1,
+      "mountains": 2,
       "volcano": 2
     },
     "special": {
