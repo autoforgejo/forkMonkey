@@ -1,14 +1,14 @@
 {
   "generation": 2,
   "parent_id": "97f18a5151ced712",
-  "dna_hash": "874b645d7102f27b",
-  "mutation_count": 92,
+  "dna_hash": "37a7c0c82b5e2e32",
+  "mutation_count": 93,
   "birth_timestamp": 681998,
   "traits": {
     "body_color": {
-      "value": "golden",
+      "value": "copper",
       "rarity": "uncommon",
-      "gene_sequence": "158495e5"
+      "gene_sequence": "0d83b1e8"
     },
     "face_expression": {
       "value": "laughing",

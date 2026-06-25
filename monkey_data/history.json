@@ -3739,6 +3739,23 @@
       },
       "story": "Your monkey evolved! Changes: accessory: headphones \u2192 crown",
       "svg_filename": "2026-06-24_04-00_monkey.svg"
+    },
+    {
+      "timestamp": "2026-06-25T04:00:42.173029",
+      "dna_hash": "37a7c0c82b5e2e32",
+      "generation": 2,
+      "mutation_count": 93,
+      "rarity_score": 28.333333333333332,
+      "traits": {
+        "body_color": "copper",
+        "face_expression": "laughing",
+        "accessory": "crown",
+        "pattern": "fractals",
+        "background": "blue_sky",
+        "special": "glow"
+      },
+      "story": "Your monkey evolved! Changes: body_color: golden \u2192 copper",
+      "svg_filename": "2026-06-25_04-00_monkey.svg"
     }
   ]
 }
