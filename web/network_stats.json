@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-02T02:45:41.915066+00:00",
+  "last_updated": "2026-07-03T02:28:25.734548+00:00",
   "total_monkeys": 31,
-  "active_today": 8,
+  "active_today": 6,
   "generations": {
     "1": 13,
     "2": 18
@@ -33,7 +33,7 @@
       "green": 1,
       "silver": 2,
       "brown": 1,
-      "rainbow": 1
+      "holographic": 1
     },
     "face_expression": {
       "cosmic": 2,
@@ -70,8 +70,8 @@
       "swirls": 4,
       "diamonds": 4,
       "cosmic_dust": 1,
-      "flames": 1,
-      "fractals": 2,
+      "flames": 2,
+      "fractals": 1,
       "nebula": 1,
       "stripes": 3,
       "stars": 3,
