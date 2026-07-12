@@ -4028,6 +4028,23 @@
       },
       "story": "Your monkey evolved! Changes: pattern: fractals \u2192 quantum",
       "svg_filename": "2026-07-11_03-13_monkey.svg"
+    },
+    {
+      "timestamp": "2026-07-12T03:24:21.079729",
+      "dna_hash": "b8734d05ab47889e",
+      "generation": 2,
+      "mutation_count": 106,
+      "rarity_score": 35.0,
+      "traits": {
+        "body_color": "copper",
+        "face_expression": "zen",
+        "accessory": "none",
+        "pattern": "quantum",
+        "background": "green_grass",
+        "special": "sparkles"
+      },
+      "story": "Your monkey evolved! Changes: accessory: bandana \u2192 none",
+      "svg_filename": "2026-07-12_03-24_monkey.svg"
     }
   ]
 }
