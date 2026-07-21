@@ -4181,6 +4181,23 @@
       },
       "story": "Your monkey evolved! Changes: face_expression: enlightened \u2192 zen",
       "svg_filename": "2026-07-20_03-34_monkey.svg"
+    },
+    {
+      "timestamp": "2026-07-21T03:15:22.669320",
+      "dna_hash": "15f883d34b346907",
+      "generation": 2,
+      "mutation_count": 119,
+      "rarity_score": 21.666666666666668,
+      "traits": {
+        "body_color": "copper",
+        "face_expression": "zen",
+        "accessory": "bow",
+        "pattern": "hearts",
+        "background": "green_grass",
+        "special": "sparkles"
+      },
+      "story": "Your monkey evolved! Changes: pattern: flames \u2192 hearts",
+      "svg_filename": "2026-07-21_03-15_monkey.svg"
     }
   ]
 }
