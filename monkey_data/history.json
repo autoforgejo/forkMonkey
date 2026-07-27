@@ -4283,6 +4283,23 @@
       },
       "story": "Your monkey evolved! Changes: special: sparkles \u2192 shadow",
       "svg_filename": "2026-07-26_03-25_monkey.svg"
+    },
+    {
+      "timestamp": "2026-07-27T03:34:45.398835",
+      "dna_hash": "425fc0f7faee9cc3",
+      "generation": 2,
+      "mutation_count": 128,
+      "rarity_score": 28.333333333333332,
+      "traits": {
+        "body_color": "copper",
+        "face_expression": "surprised",
+        "accessory": "sunglasses",
+        "pattern": "hearts",
+        "background": "sunset",
+        "special": "aura"
+      },
+      "story": "Your monkey evolved! Changes: accessory: crown \u2192 sunglasses, background: green_grass \u2192 sunset, special: shadow \u2192 aura",
+      "svg_filename": "2026-07-27_03-34_monkey.svg"
     }
   ]
 }
