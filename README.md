@@ -85,7 +85,7 @@ Your monkey is born! Check the README or visit `https://YOUR-USERNAME.github.io/
 <!-- MONKEY_STATS_START -->
 | Generation | Age | Mutations | Rarity Score |
 |:----------:|:---:|:---------:|:------------:|
-| 2 | 283 days | 151 | 20.0/100 |
+| 2 | 284 days | 151 | 20.0/100 |
 <!-- MONKEY_STATS_END -->
 
 ---
