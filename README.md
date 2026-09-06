@@ -85,7 +85,7 @@ Your monkey is born! Check the README or visit `https://YOUR-USERNAME.github.io/
 <!-- MONKEY_STATS_START -->
 | Generation | Age | Mutations | Rarity Score |
 |:----------:|:---:|:---------:|:------------:|
-| 2 | 293 days | 156 | 33.3/100 |
+| 2 | 294 days | 158 | 28.3/100 |
 <!-- MONKEY_STATS_END -->
 
 ---
@@ -240,13 +240,13 @@ forkMonkey/
 Your child inherits traits from this monkey + gets random mutations.
 
 <!-- LINEAGE_STATS_START -->
-🧬 **Notable Traits:** **Volcano** (rare), **Transcendent** (legendary)
+🧬 **Notable Traits:** **Transcendent** (legendary)
 
 🍴 Fork to inherit these rare genetics!
 <!-- LINEAGE_STATS_END -->
 
 <!-- BREEDING_BOOST_START -->
-✨ **Limited time:** Rare trait inheritance rates boosted!
+⚡ **First 5 forks get +15% legendary trait inheritance!**
 <!-- BREEDING_BOOST_END -->
 
 **Will you breed the next Legendary?** 🦄
