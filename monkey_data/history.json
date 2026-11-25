@@ -6340,6 +6340,23 @@
       },
       "story": "Your monkey evolved! Changes: accessory: sunglasses \u2192 monocle",
       "svg_filename": "2026-11-24_09-12_monkey.svg"
+    },
+    {
+      "timestamp": "2026-11-25T07:48:17.737909",
+      "dna_hash": "3b37099da672a826",
+      "generation": 2,
+      "mutation_count": 215,
+      "rarity_score": 28.333333333333332,
+      "traits": {
+        "body_color": "purple",
+        "face_expression": "sleepy",
+        "accessory": "monocle",
+        "pattern": "swirls",
+        "background": "space",
+        "special": "sparkles"
+      },
+      "story": "Your monkey evolved! Changes: face_expression: happy \u2192 sleepy",
+      "svg_filename": "2026-11-25_07-48_monkey.svg"
     }
   ]
 }
